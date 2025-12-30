@@ -4,7 +4,12 @@
 Projeto desenvolvido como parte do **Desafio prático da DIO**, com o objetivo de aplicar conceitos de **Java**, **Programação Orientada a Objetos**, **JDBC**, **MySQL** e **arquitetura em camadas**, criando uma aplicação de **quadro de tarefas (Board)** executada via **console**.
 
 ---
+## 🚧 Escopo da Implementação
 
+Este projeto foca na modelagem do domínio, serviços principais e testes automatizados.
+Funcionalidades como menu interativo (CLI), persistência em banco de dados e relatórios
+estão planejadas para evolução futura do projeto.
+---
 ## 🎯 Objetivo do Projeto
 
 Criar uma aplicação de console que permita:
