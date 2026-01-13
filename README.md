@@ -26,17 +26,15 @@ Nota de QA: Durante o desenvolvimento, os testes automatizados foram cruciais pa
 🐳 Containerização (Docker)
 O projeto está totalmente "dockerizado", facilitando o deploy e a consistência entre ambientes de desenvolvimento e produção.
 
-Build da imagem:
-
-Bash
+## Build da imagem:
 
 docker build -t kanban-board-api .
-Execução do container:
 
-Bash
+## Execução do container:
 
 docker run -p 8080:8080 kanban-board-api
-🛠️ Stack Tecnológica
+
+## 🛠️ Stack Tecnológica
 Linguagem: Java 17
 
 Build Tool: Maven
@@ -47,7 +45,7 @@ Testing: JUnit 5 & Mockito
 
 Infra: Docker
 
-🚀 Roadmap de Evolução
+## 🚀 Roadmap de Evolução
 [ ] Persistência com MySQL/PostgreSQL.
 
 [ ] Implementação de logs de auditoria (Histórico de cards).
